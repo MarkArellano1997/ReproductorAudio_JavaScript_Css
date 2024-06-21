@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reproductor de Música</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Reproductor de Música</h1>
+        <div class="file">
+            <input onchange="fileAdd(this)" id="inputAudio" type="file" accept="audio/*">
+            <label for="inputAudio">Subir Música</label>
+        </div>
+
+        <audio id="audio" controls preload="auto"></audio>
+
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+
+</html>

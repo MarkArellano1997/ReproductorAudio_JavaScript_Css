@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(19, 22, 37);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgb(68, 68, 68);
+    width: 90%;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: white;
+}
+
+input{
+    display: none;
+}
+
+.file{
+    margin: 1.2rem 0;
+}
+
+label{
+    padding: 10px;
+    background-color: rgb(102, 121, 230);
+    color: white;
+    border-radius: 10px;
+}
+
+audio{
+    width: 100%;
+}
